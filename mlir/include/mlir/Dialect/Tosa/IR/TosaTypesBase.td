@@ -86,6 +86,7 @@ def Tosa_QuantizedInt	: AnyTypeOf<[ Tosa_QuantizedType<"uint8", [8], 0>,
 // Floating-point types.
 //===----------------------------------------------------------------------===//
 def Tosa_Float : AnyTypeOf<[
+                            F64,
                             F32,
 			    F16,
 			    BF16]>;
